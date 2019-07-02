@@ -32,7 +32,6 @@ const ColorSwitch = {
   stop() {
     this.isActive = false;
     clearInterval(this.timer);
-    refs.body.style.backgroundColor = colors[0];
   }
 };
 
